@@ -1,7 +1,7 @@
 # Teste-de-sele-o-para-desenvolvedor-PHP
 
 ## Regras:
-- Prazo de sete dias corridos a partir do envio do teste. Após o término do prazo, pode-se submeter o código <strong>mesmo que incompleto<strong>.
+- Prazo de sete dias corridos a partir do envio do teste. Após o término do prazo, pode-se submeter o código <strong>mesmo que incompleto</strong>.
 - O sistema deve ser feito na linguagem PHP e com o banco de dados MySQL.
 - Não se pode usar qualquer framework em PHP para desenvolver o projeto, como Laravel, Symfony, CakePHP, Yii e etc.
 - O código deve estar disponível no GitHub, Gitlab ou Bitbucket.
