@@ -42,7 +42,7 @@ Abaixo os requisitos da funcionalidade:
   - Ter várias turmas.
   - Exibir o total de alunos.
 - API para integração
-  -Os dados da escola serão buscados via api:
+  - Os dados da escola serão buscados via api:
     - http://educacao.dadosabertosbr.com/api/docs/%2Fapi%2Fescolas%2Fbuscaavancada
     - http://educacao.dadosabertosbr.com/api/escolas/buscaavancada?estado=MT
 - Localização no mapa (extra)
