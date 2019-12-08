@@ -6,7 +6,7 @@
 - Não se pode usar qualquer framework em PHP para desenvolver o projeto, como Laravel, Symfony, CakePHP, Yii e etc.
 - O código deve estar disponível no GitHub, Gitlab ou Bitbucket.
 - Deve ter o “Readme” com as instruções.
-- Pode se usar qualquer biblioteca de <strong>frontend<strong> (Bootstrap, Semantic, Materialize, Foundation, CSS, Sass, Less, Javascript, jQuery, Vue.js, React...)
+- Pode se usar qualquer biblioteca de <strong>frontend</strong> (Bootstrap, Semantic, Materialize, Foundation, CSS, Sass, Less, Javascript, jQuery, Vue.js, React...)
 
 ## Diferenciais e análise:
 - Uso das PSRs.
