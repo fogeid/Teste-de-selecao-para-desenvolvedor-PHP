@@ -1,196 +1,56 @@
 # Teste-de-sele-o-para-desenvolvedor-PHP
 
-<strong>Regras:</strong>
-    <ul>
-        <li>
-            <p>
-                Prazo de sete dias corridos a partir do envio do teste. Após o término do prazo, pode-se submeter o
-                código <strong>mesmo que incompleto</strong>.
-            </p>
-        </li>
+## Regras:
+- Prazo de sete dias corridos a partir do envio do teste. Após o término do prazo, pode-se submeter o código <strong>mesmo que incompleto<strong>.
+- O sistema deve ser feito na linguagem PHP e com o banco de dados MySQL.
+- Não se pode usar qualquer framework em PHP para desenvolver o projeto, como Laravel, Symfony, CakePHP, Yii e etc.
+- O código deve estar disponível no GitHub, Gitlab ou Bitbucket.
+- Deve ter o “Readme” com as instruções.
+- Pode se usar qualquer biblioteca de <strong>frontend<strong> (Bootstrap, Semantic, Materialize, Foundation, CSS, Sass, Less, Javascript, jQuery, Vue.js, React...)
 
-        <li>
-            <p>
-                O sistema deve ser feito na linguagem PHP e com o banco de dados MySQL.
-            </p>
-        </li>
+## Diferenciais e análise:
+- Uso das PSRs.
+- Estrutura do projeto, código organizado, comentado e limpo.
+- Uso de alguma biblioteca frontend (Vue.js, React e etc).
 
-        <li>
-            <p>
-                Não se pode usar qualquer framework em PHP para desenvolver o projeto, como Laravel, Symfony, CakePHP,
-                Yii e etc.
-            </p>
-        </li>
 
-        <li>
-            <p>
-                O código deve estar disponível no GitHub, Gitlab ou Bitbucket.
-            </p>
-        </li>
+## Objetivo:
+Desenvolver um sistema de controle de alunos de uma escola. O sistema deverá conter as seguintes funcionalidades:
 
-        <li>
-            <p>
-                Deve ter o “Readme” com as instruções.
-            </p>
-        </li>
+*Cadastro de alunos*
+Abaixo os requisitos da funcionalidade:
 
-        <li>
-            <p>
-                Pode se usar qualquer biblioteca de <strong>frontend</strong> (Bootstrap, Semantic, Materialize,
-                Foundation, CSS, Sass, Less, Javascript, jQuery, Vue.js, React...)
-            </p>
-        </li>
-    </ul>
+- Deve ter a listagem com busca, cadastro, edição e exclusão de aluno.
+- Campos: ID, nome, telefone, e-mail, data de nascimento e gênero.
+- Campos obrigatórios: Nome e E-mail.
+- Um aluno pode estar ligado a muitas turmas.
 
-    <strong>Diferenciais e análise:</strong>
-    <ul>
-        <li>
-            <p>
-                Uso das PSRs.
-            </p>
-        </li>
-        <li>
-            <p>
-                Estrutura do projeto, código organizado, comentado e limpo.
-            </p>
-        </li>
-        <li>
-            <p>
-                Uso de alguma biblioteca frontend (Vue.js, React e etc).
-            </p>
-        </li>
-    </ul>
+*Cadastro de turmas*
+Abaixo os requisitos da funcionalidade:
 
-    <strong>Objetivo:</strong>
-    <p>
-        Desenvolver um sistema de controle de alunos de uma escola. O sistema deverá conter as seguintes
-        funcionalidades:
-    </p>
+- Deve ter a listagem com busca, cadastro, edição e exclusão das turmas.
+- Campos: Ano, nível de ensino (fundamental, médio), série e turno.
+- Uma turma deve estar ligada a uma escola.
 
-    <i>Cadastro de alunos</i>
-    <p>
-        Abaixo os requisitos da funcionalidade:
-    </p>
+*Cadastro de escolas*
+Abaixo os requisitos da funcionalidade:
 
-    <ul>
-        <li>
-            <p>
-                Deve ter a listagem com busca, cadastro, edição e exclusão de aluno.
-            </p>
-        </li>
-        <li>
-            <p>
-                Campos: ID, nome, telefone, e-mail, data de nascimento e gênero.
-            </p>
-        </li>
-        <li>
-            <p>
-                Campos obrigatórios: Nome e E-mail.
-            </p>
-        </li>
-        <li>
-            <p>
-                Um aluno pode estar ligado a muitas turmas.
-            </p>
-        </li>
-    </ul>
+- Deve ter a listagem com busca, cadastro, edição e exclusão da escola.
+- Campos: ID, nome da escola, endereço.
+- Campos obrigatórios: ID, Data e Situação.
+- Uma escola deve:
+-- Ter várias turmas.
+-- Exibir o total de alunos.
+- API para integração
+--Os dados da escola serão buscados via api:
+http://educacao.dadosabertosbr.com/api/docs/%2Fapi%2Fescolas%2Fbuscaavancada
+http://educacao.dadosabertosbr.com/api/escolas/buscaavancada?estado=MT
+- Localização no mapa (extra)
+-- Exibição da localização da escola em uma mapa dinâmico ou fixo
 
-    <i>Cadastro de turmas</i>
-    <p>
-        Abaixo os requisitos da funcionalidade:
-    </p>
 
-    <ul>
-        <li>
-            <p>
-                Deve ter a listagem com busca, cadastro, edição e exclusão das turmas.
-            </p>
-        </li>
-        <li>
-            <p>
-                Uma turma deve estar ligada a uma escola.
-            </p>
-        </li>
-        <li>
-            <p>
-                Campos: Ano, nível de ensino (fundamental, médio), série e turno.
-            </p>
-        </li>
-    </ul>
-
-    <i>Cadastro de escolas</i>
-    <p>
-        Abaixo os requisitos da funcionalidade:
-    </p>
-
-    <ul>
-        <li>
-            <p>
-                Deve ter a listagem com busca, cadastro, edição e exclusão da escola.
-            </p>
-        </li>
-        <li>
-            <p>
-                Campos: ID, nome da escola, endereço.
-            </p>
-        </li>
-        <li>
-            <p>
-                Campos obrigatórios: ID, Data e Situação.
-            </p>
-        </li>
-
-        <li>
-            <p>
-                Uma escola deve:
-            </p>
-            <ul>
-                <li>
-                    <p>
-                        Ter várias turmas.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Exibir o total de alunos.
-                    </p>
-                </li>
-            </ul>
-        </li>
-
-        <li>
-            <p>
-                API para integração
-            </p>
-            <ul>
-                <li>
-                    <p>
-                        Os dados da escola serão buscados via api:
-                        http://educacao.dadosabertosbr.com/api/docs/%2Fapi%2Fescolas%2Fbuscaavancada
-                        http://educacao.dadosabertosbr.com/api/escolas/buscaavancada?estado=MT
-                    </p>
-                </li>
-            </ul>
-        </li>
-
-        <li>
-            <p>
-                Localização no mapa (extra)
-            </p>
-            <ul>
-                <li>
-                    <p>
-                        Exibição da localização da escola em uma mapa dinâmico ou fixo
-                    </p>
-                </li>
-            </ul>
-        </li>
-    </ul>
-
-    <p>Tabelas necessárias:</p>
-    <ul>
-        <li>Alunos</li>
-        <li>Turmas</li>
-        <li>Escolas</li>
-        <li>Alunos de Turmas</li>
-    </ul>
+## Tabelas necessárias:
+- Alunos
+- Turmas
+- Escolas
+- Alunos de Turmas
