@@ -39,14 +39,14 @@ Abaixo os requisitos da funcionalidade:
 - Campos: ID, nome da escola, endereço.
 - Campos obrigatórios: ID, Data e Situação.
 - Uma escola deve:
--- Ter várias turmas.
--- Exibir o total de alunos.
+  - Ter várias turmas.
+  - Exibir o total de alunos.
 - API para integração
---Os dados da escola serão buscados via api:
-http://educacao.dadosabertosbr.com/api/docs/%2Fapi%2Fescolas%2Fbuscaavancada
-http://educacao.dadosabertosbr.com/api/escolas/buscaavancada?estado=MT
+  -Os dados da escola serão buscados via api:
+  http://educacao.dadosabertosbr.com/api/docs/%2Fapi%2Fescolas%2Fbuscaavancada
+  http://educacao.dadosabertosbr.com/api/escolas/buscaavancada?estado=MT
 - Localização no mapa (extra)
--- Exibição da localização da escola em uma mapa dinâmico ou fixo
+  - Exibição da localização da escola em uma mapa dinâmico ou fixo
 
 
 ## Tabelas necessárias:
