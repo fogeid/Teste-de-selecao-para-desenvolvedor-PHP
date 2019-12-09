@@ -6,7 +6,7 @@ body {
 /* HEADER */
 .header {    
     max-width: 100%;
-    height: 110px;
+    height: 120px;
     border-bottom: 5px solid #c0f11c;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
@@ -50,9 +50,10 @@ body {
 }
 
 #conteudo h1 {
-    font-size: 50px;
+    font-size: 70px;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 5px;
     padding-top: 120px;
     color: #3ca5eb;
 }
@@ -78,3 +79,5 @@ body {
     text-align: center;
     padding-top: 17px;
 }
+
+/* ****************************************************************************************************************** */
