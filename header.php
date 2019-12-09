@@ -7,8 +7,8 @@
         <title>Teste de seleção para desenvolvedor PHP</title>
         <link href="https://fonts.googleapis.com/css?family=Blinker:300,400,600,700&display=swap" rel="stylesheet">        
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
     </head>
     <body>
         <header class="header">
