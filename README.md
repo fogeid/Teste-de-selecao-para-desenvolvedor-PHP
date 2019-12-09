@@ -1,4 +1,4 @@
-# Teste-de-selecao-para-desenvolvedor-PHP
+# Teste de seleção para desenvolvedor PHP
 
 ## Regras:
 - Prazo de sete dias corridos a partir do envio do teste. Após o término do prazo, pode-se submeter o código <strong>mesmo que incompleto</strong>.
