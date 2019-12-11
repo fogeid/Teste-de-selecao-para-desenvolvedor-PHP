@@ -11,8 +11,9 @@
         <link rel="stylesheet" href="css/bootstrap.css">
     </head>
     <body>
+        <!-- HEADER -->
         <header class="header">
-           <a href="?pagina=home"><img src="img/logo.png" alt="Logo"></a>
+           <a href="?pagina=index"><img src="img/logo.png" alt="Logo"></a>
             <nav class="menu">
                 <ul>
                     <li><a href="?pagina=alunos">Alunos</a></li>
@@ -22,4 +23,5 @@
             </nav>
         </header>
         
+        <!-- HOME -->
         <div id="conteudo">
