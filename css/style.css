@@ -32,7 +32,7 @@ body {
     color: #3ca5eb;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 5px 10px;
     display: block;
     margin: 0 auto;
     transition: all .3s ease;
@@ -50,15 +50,20 @@ body {
 }
 
 #conteudo h1 {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 600;
     font-size: 70px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 5px;
     padding-top: 120px;
     color: #3ca5eb;
+    
 }
 
 #conteudo p {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 600;
     font-size: 30px;
     font-weight: 600;
     padding-top: 20px;    
