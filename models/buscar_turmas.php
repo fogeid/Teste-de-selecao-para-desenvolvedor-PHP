@@ -1,6 +1,5 @@
 <div class="menu-turmas btn-group btn-group-justify d-flex justify-content-center py-5" role="group" aria-label="Basic example">
   <a href="?pagina=turmas" class="btn btn-primary px-4">Cadastro</a>
-  <a href="?pagina=editar_turma" class="btn btn-primary px-4">Edição</a>
   <a href="?pagina=buscar_turmas" class="btn btn-primary px-4">Listar</a>
 </div>
 
@@ -12,11 +11,12 @@
       <th scope="col">Nível de Ensino</th>
       <th scope="col">Turno</th>
       <th scope="col">Ano</th>
+      <th scope="col">Editar</th>
       <th scope="col">Excluir</th>
     </tr>
 
     <?php
-      while($linha = mysqli_fetch_array($buscar_turmas)) {
+      while($linha = mysqli_fetch_array($consulta_turmas)) {
         echo 
         '</thead>
           <tbody>
@@ -26,6 +26,7 @@
           echo '<td>'.$linha['turno'].'</td>';
           echo '<td>'.$linha['ano'].'</td>';     
     ?>
+              <td><a href="?pagina=turmas&editar=<?php echo $linha['id_turma']; ?>">Editar</a></td>
               <td><a href="excluir_turma.php?id_turma=<?php echo $linha['id_turma']; ?>">Deletar</a></td>
             </tr>
           </tbody>

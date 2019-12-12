@@ -1,6 +1,5 @@
 <div class="menu-turmas btn-group btn-group-justify d-flex justify-content-center py-5" role="group" aria-label="Basic example">
   <a href="?pagina=alunos" class="btn btn-primary px-4">Cadastro</a>
-  <a href="?pagina=editar_aluno" class="btn btn-primary px-4">Edição</a>
   <a href="?pagina=buscar_alunos" class="btn btn-primary px-4">Listar</a>
 </div>
 
@@ -23,6 +22,8 @@
       <th scope="col">Gênero</th>
       <th scope="col">Telefone</th>
       <th scope="col">E-mail</th>
+      <th scope="col">Editar</th>
+      <th scope="col">Excluir</th>
     </tr>
     <?php
       while($linha = mysqli_fetch_array($listar_alunos)) {
@@ -36,7 +37,7 @@
           echo '<td>'.$linha['telefone'].'</td>';
           echo '<td>'.$linha['email'].'</td>';
     ?>
-
+          <td><a href="?pagina=alunos&editar=<?php echo $linha['id_aluno']; ?>">Editar</a></td>
           <td><a href="excluir_aluno.php?id_aluno=<?php echo $linha['id_aluno']; ?>">Deletar</a></td>
             </tr>
           </tbody>
