@@ -1,7 +1,6 @@
 <div class="menu-turmas btn-group btn-group-justify d-flex justify-content-center py-5" role="group" aria-label="Basic example">
   <a href="?pagina=turmas" class="btn btn-primary px-4">Cadastro</a>
   <a href="?pagina=editar_turma" class="btn btn-primary px-4">Edição</a>
-  <a href="?pagina=excluir_turma" class="btn btn-primary px-4">Excluir</a>
   <a href="?pagina=buscar_turmas" class="btn btn-primary px-4">Listar</a>
 </div>
 
@@ -46,6 +45,19 @@
       <label for="ano">Ano</label>
       <input type="number" name="ano" class="form-control" id="ano" placeholder="Ex: 2019">
     </div>
-  </div>  
+  </div>
+  <!-- <div class="form-row justify-content-center">
+    <div class="form-group col-md-8">
+      <label for="escolha_escola">Escola</label>
+      <select id="escolha_escola" name="escolha_escola" class="form-control">
+        <option selected>Selecione</option>
+        
+        #while($linha = mysqli_fetch_array($consulta_escolas)) {
+         # echo '<option value="'.$linha['id_escola'].'">'.$linha['id_escola'].' - '.$linha['nome'].'</option>';
+        #}
+        
+      </select>
+    </div>
+  </div> -->
   <button type="submit" class="btn btn-primary col-md-2 container">Cadastrar</button>
 </form>

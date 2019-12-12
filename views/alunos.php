@@ -1,7 +1,6 @@
 <div class="menu-turmas btn-group btn-group-justify d-flex justify-content-center py-5" role="group" aria-label="Basic example">
   <a href="?pagina=alunos" class="btn btn-primary px-4">Cadastro</a>
   <a href="?pagina=editar_aluno" class="btn btn-primary px-4">Edição</a>
-  <a href="?pagina=excluir_aluno" class="btn btn-primary px-4">Excluir</a>
   <a href="?pagina=buscar_alunos" class="btn btn-primary px-4">Listar</a>
 </div>
 
@@ -29,7 +28,7 @@
     </div>
     <div class="form-group col-md-3">
       <label for="telefone">Telefone</label>
-      <input type="text" name="telefone" class="form-control" id="telefone" placeholder="65987654321">
+      <input type="text" name="telefone" class="form-control" id="telefone" placeholder="Ex: 65987654321">
     </div>
     <div class="form-group col-md-4">
       <label for="email">E-mail</label>
