@@ -1,7 +1,6 @@
 <div class="menu-turmas btn-group btn-group-justify d-flex justify-content-center py-5" role="group" aria-label="Basic example">
   <a href="?pagina=alunos" class="btn btn-primary px-4">Cadastro</a>
   <a href="?pagina=editar_aluno" class="btn btn-primary px-4">Edição</a>
-  <a href="?pagina=excluir_aluno" class="btn btn-primary px-4">Excluir</a>
   <a href="?pagina=buscar_alunos" class="btn btn-primary px-4">Listar</a>
 </div>
 
@@ -35,7 +34,14 @@
           echo '<td>'.$linha['data_nascimento'].'</td>';
           echo '<td>'.$linha['genero'].'</td>';
           echo '<td>'.$linha['telefone'].'</td>';
-          echo '<td>'.$linha['email'].'</td></tr></tbody>';
+          echo '<td>'.$linha['email'].'</td>';
+    ?>
+
+          <td><a href="excluir_aluno.php?id_aluno=<?php echo $linha['id_aluno']; ?>">Deletar</a></td>
+            </tr>
+          </tbody>
+
+    <?php
       }
     ?>
 </table>
