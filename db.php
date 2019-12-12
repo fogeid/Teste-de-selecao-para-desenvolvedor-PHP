@@ -9,13 +9,20 @@ $conexao = mysqli_connect($servidor, $usuario, $senha, $db);
 
 # - - - CONSULTAS - - - 
 # Consulta Turmas
-$query = "SELECT E.nome, T.serie, T.nivel_ensino, T.turno, T.ano
-        FROM escolas E,
+$query1 = "SELECT * FROM turmas";
+$buscar_turmas = mysqli_query($conexao, $query1);
+
+$query2 = "SELECT A.nome, E.nome, T.serie, T.nivel_ensino, T.turno, T.ano
+        FROM alunos A,
         turmas T,
-        alunos_turmas AT
-WHERE E.id_escola = AT.id_escola and T.id_turma = AT.id_turma";
-$consulta_turmas = mysqli_query($conexao, $query);
+        escolas E,
+WHERE E.id_escola = id_escola and T.id_turma = id_turma";
+$consulta_turma_escola = mysqli_query($conexao, $query2);
 
 # Consulta Alunos    
-$query1 = "SELECT * FROM alunos";
-$listar_alunos = mysqli_query($conexao, $query1);
+$query = "SELECT * FROM alunos";
+$listar_alunos = mysqli_query($conexao, $query);
+
+# Consulta Escolas
+$query = "SELECT * FROM escolas";
+$consulta_escolas = mysqli_query($conexao, $query);
