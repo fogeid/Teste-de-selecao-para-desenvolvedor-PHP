@@ -44,12 +44,30 @@ body {
     background: #3ca5eb;    
 }
 
-/* CONTEÚDO */
-#conteudo {
-    height: 480px;
+.menu .btn-sucesso {
+    text-decoration: none;
+    background: #25a830;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    display: block;
+    margin: 0 auto;
+    transition: all .3s ease;
+    border-radius: 5px;
 }
 
-#conteudo h1 {
+.menu .btn-sucesso:hover {
+    color: #fff;
+    background: #42dd4f;
+}
+
+/* CONTEÚDO */
+#conteudo {
+    height: 880px;
+}
+
+#conteudo .titulo {
     font-family: 'Blinker', sans-serif;
     font-weight: 600;
     font-size: 70px;
@@ -61,7 +79,7 @@ body {
     
 }
 
-#conteudo p {
+#conteudo .subtitulo {
     font-family: 'Blinker', sans-serif;
     font-weight: 600;
     font-size: 30px;
