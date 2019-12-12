@@ -41,8 +41,6 @@
         <div class="conteudo">
             <div class="menu-turmas btn-group btn-group-justify d-flex justify-content-center py-5" role="group" aria-label="Basic example">
                 <a href="/estudadotcom/?pagina=alunos" class="btn btn-primary px-4">Cadastro</a>
-                <a href="/estudadotcom/?pagina=editar_aluno" class="btn btn-primary px-4">Edição</a>
-                <a href="/estudadotcom/?pagina=excluir_aluno" class="btn btn-primary px-4">Excluir</a>
                 <a href="/estudadotcom/?pagina=buscar_alunos" class="btn btn-primary px-4">Listar</a>
             </div>
 

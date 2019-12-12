@@ -10,7 +10,7 @@ $conexao = mysqli_connect($servidor, $usuario, $senha, $db);
 # - - - CONSULTAS - - - 
 # Consulta Turmas
 $query1 = "SELECT * FROM turmas";
-$buscar_turmas = mysqli_query($conexao, $query1);
+$consulta_turmas = mysqli_query($conexao, $query1);
 
 $query2 = "SELECT A.nome, E.nome, T.serie, T.nivel_ensino, T.turno, T.ano
         FROM alunos A,
