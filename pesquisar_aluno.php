@@ -26,13 +26,13 @@
     <body>
         <!-- HEADER -->
         <header class="header">
-           <a href="/estudadotcom/?pagina=index"><img src="img/logo.png" alt="Logo"></a>
+           <a href="?pagina=index"><img src="img/logo.png" alt="Logo"></a>
             <nav class="menu">
                 <ul>
-                    <li><a href="/estudadotcom/?pagina=alunos">Alunos</a></li>
-                    <li><a href="/estudadotcom/?pagina=turmas">Turmas</a></li>
-                    <li><a href="/estudadotcom/?pagina=escolas">Escolas</a></li>
-                    <li><a href="/estudadotcom/?pagina=matricula" class="btn-sucesso">Matricula</a></li>
+                    <li><a href="?pagina=alunos">Alunos</a></li>
+                    <li><a href="?pagina=turmas">Turmas</a></li>
+                    <li><a href="?pagina=escolas">Escolas</a></li>
+                    <li><a href="?pagina=matricula" class="btn-sucesso">Matricula</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,10 +40,10 @@
         <!-- CONTEÚDO -->
         <div class="conteudo">
             <div class="menu-turmas btn-group btn-group-justify d-flex justify-content-center py-5" role="group" aria-label="Basic example">
-                <a href="/estudadotcom/?pagina=alunos" class="btn btn-primary px-4">Cadastro</a>
-                <a href="/estudadotcom/?pagina=editar_aluno" class="btn btn-primary px-4">Edição</a>
-                <a href="/estudadotcom/?pagina=excluir_aluno" class="btn btn-primary px-4">Excluir</a>
-                <a href="/estudadotcom/?pagina=buscar_alunos" class="btn btn-primary px-4">Listar</a>
+                <a href="?pagina=alunos" class="btn btn-primary px-4">Cadastro</a>
+                <a href="?pagina=editar_aluno" class="btn btn-primary px-4">Edição</a>
+                <a href="?pagina=excluir_aluno" class="btn btn-primary px-4">Excluir</a>
+                <a href="?pagina=buscar_alunos" class="btn btn-primary px-4">Listar</a>
             </div>
 
             <h1 class="container mb-4 text-center">Pesquisar Aluno</h1>
