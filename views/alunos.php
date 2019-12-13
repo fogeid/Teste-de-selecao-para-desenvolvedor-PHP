@@ -14,7 +14,7 @@
     </div>
     <div class="form-group col-md-4">
       <label for="data_nascimento">Data de nascimento</label>
-      <input type="text" name="data_nascimento" class="form-control" id="data_nascimento" placeholder="Ex: 01-01-2000">        
+      <input type="text" name="data_nascimento" class="form-control" id="data_nascimento" placeholder="Ex: 2000-01-01">        
       </select>
     </div>
   </div>
@@ -53,7 +53,7 @@
     </div>
     <div class="form-group col-md-4">
       <label for="data_nascimento">Data de nascimento</label>
-      <input type="text" name="data_nascimento" class="form-control" id="data_nascimento" placeholder="Ex: 01-01-2000" value="<?php echo $linha['data_nascimento']; ?>">        
+      <input type="text" name="data_nascimento" class="form-control" id="data_nascimento" placeholder="Ex: 2000-01-01" value="<?php echo $linha['data_nascimento']; ?>">        
       </select>
     </div>
   </div>

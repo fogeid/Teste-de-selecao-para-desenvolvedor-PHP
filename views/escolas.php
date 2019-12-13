@@ -21,7 +21,7 @@
   <div class="form-row justify-content-center">
     <div class="form-group col-md-6">
       <label for="data_cad">Data</label>
-      <input type="text" name="data_cad" class="form-control" id="data_cad" placeholder="Ex: 01-01-2000">        
+      <input type="text" name="data_cad" class="form-control" id="data_cad" placeholder="Ex: 2000-01-01">        
       </select>
     </div>
     <div class="form-group col-md-4">
@@ -57,7 +57,7 @@
   <div class="form-row justify-content-center">
     <div class="form-group col-md-6">
       <label for="data_cad">Data</label>
-      <input type="text" name="data_cad" class="form-control" id="data_cad" placeholder="Ex: 01-01-2000" value="<?php echo $linha['data_cad']; ?>">        
+      <input type="text" name="data_cad" class="form-control" id="data_cad" placeholder="Ex: 2000-01-01" value="<?php echo $linha['data_cad']; ?>">        
       </select>
     </div>
     <div class="form-group col-md-4">
